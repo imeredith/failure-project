@@ -60,6 +60,10 @@ public class TestThisWillFailAbunch {
         System.out.println("stdout msg");
         
         System.err.println("stderrt msg");
+  System.err.println("stderrt msg");
+  System.err.println("  stderrt msg");
+  System.err.println("\tstderrt msg");
+  System.err.println("\t\tstderrt msg");
 
          assertTrue("I expected this to pass!", false);
     }
