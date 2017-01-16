@@ -57,6 +57,10 @@ public class TestThisWillFailAbunch {
 
     @Test
     public void aFailingTest6() {
+        System.out.println("stdout msg");
+        
+        System.err.println("stderrt msg");
+
          assertTrue("I expected this to pass!", false);
     }
 
