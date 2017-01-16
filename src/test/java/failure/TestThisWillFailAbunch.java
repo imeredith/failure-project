@@ -20,18 +20,28 @@ public class TestThisWillFailAbunch {
     @Ignore
     @Test
     public void aFailingTest3() {
+            System.out.println("stdout msg");
+        
+        System.err.println("stderrt msg");
+    
          assertTrue("I expected this to pass!", false);
     }
 
     //@Ignore
     @Test
     public void aFailingTest4() {
+         System.out.println("stdout msg");
+        
+        System.err.println("stderrt msg");
          assertTrue("I expected this to pass!", true);
     }
 
     @Ignore
     @Test
     public void aNewFailingTest31() {
+        System.out.println("stdout msg");
+        
+        System.err.println("stderrt msg");
          assertTrue("I expected this to pass!", false);
     }
 
