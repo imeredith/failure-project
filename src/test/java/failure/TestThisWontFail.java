@@ -7,6 +7,7 @@ import org.junit.Test;
 public class TestThisWontFail {
     @Test
     public void aPassingTest() {
+        System.out.println("test");
          assertTrue("Success!", true);
     }
 
